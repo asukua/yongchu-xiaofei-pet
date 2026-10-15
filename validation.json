@@ -1,0 +1,103 @@
+{
+  "file": "spritesheet.png",
+  "sha256": "9efec77e71e02d2070b8ed5844beab8e4bfc60c52f64e29a7ecd08a497a77213",
+  "encoded_bytes": 2523395,
+  "structural_validation": {
+    "ok": true,
+    "width": 1536,
+    "height": 2288,
+    "sprite_version_number": 2,
+    "transparent_rgb_residue_pixels": 0,
+    "errors": [],
+    "warnings": []
+  },
+  "pets_preflight": {
+    "valid": true,
+    "mime_type": "image/png",
+    "width": 1536,
+    "height": 2288,
+    "sprite_version": 2,
+    "cell_width": 192,
+    "cell_height": 208,
+    "frames_per_row": [
+      6,
+      8,
+      8,
+      4,
+      5,
+      8,
+      6,
+      6,
+      6,
+      8,
+      8
+    ],
+    "errors": []
+  },
+  "motion_quality": {
+    "ok": true,
+    "jump": {
+      "idle_baseline": 202,
+      "jump_baselines": [
+        202,
+        202,
+        174,
+        195,
+        202
+      ],
+      "airborne_lift_pixels": 28,
+      "landing_delta_pixels": 0
+    },
+    "look_registration": {
+      "neutral_center_x": 96.0,
+      "look_centers_x": [
+        94.5,
+        94.0,
+        88.5,
+        88.0,
+        88.0,
+        89.5,
+        90.0,
+        90.0,
+        96.0,
+        97.0,
+        99.0,
+        102.0,
+        103.0,
+        100.5,
+        100.5,
+        99.5
+      ],
+      "look_widths": [
+        117,
+        110,
+        115,
+        112,
+        112,
+        113,
+        112,
+        112,
+        118,
+        114,
+        112,
+        112,
+        112,
+        113,
+        113,
+        113
+      ],
+      "maximum_center_drift_pixels": 8.0,
+      "maximum_width_ratio": 1.0727272727272728
+    },
+    "errors": [],
+    "warnings": [
+      "look direction 067.5 accepted with a reviewed warning",
+      "look direction 157.5 accepted with a reviewed warning",
+      "look direction 247.5 accepted with a reviewed warning",
+      "look direction 337.5 accepted with a reviewed warning",
+      "157.5->180 diff is a local outlier (2049 pixels vs neighbor average 982)"
+    ]
+  },
+  "stored_pixels_verified_identical": true,
+  "visual_review": "Reviewed with documented minor warnings; see docs/quality-notes.md."
+}

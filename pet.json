@@ -1,0 +1,173 @@
+{
+  "name": "永雏小菲",
+  "display_name": "永雏小菲",
+  "description": "粉色长发、琥珀色眼睛的永雏小菲，佩戴齿轮发夹与猫咪头饰，会挥手、跳跃、奔跑和转头。",
+  "version": "1.0.0",
+  "spritesheet": "spritesheet.png",
+  "format": "png",
+  "sprite_version": 2,
+  "width": 1536,
+  "height": 2288,
+  "columns": 8,
+  "rows": 11,
+  "cell_width": 192,
+  "cell_height": 208,
+  "transparent": true,
+  "required_frames": 73,
+  "unused_cells": 15,
+  "states": [
+    {
+      "state": "idle",
+      "label": "待机",
+      "row": 0,
+      "frames": 6
+    },
+    {
+      "state": "running-right",
+      "label": "向右跑步",
+      "row": 1,
+      "frames": 8
+    },
+    {
+      "state": "running-left",
+      "label": "向左跑步",
+      "row": 2,
+      "frames": 8
+    },
+    {
+      "state": "waving",
+      "label": "挥手",
+      "row": 3,
+      "frames": 4
+    },
+    {
+      "state": "jumping",
+      "label": "跳跃",
+      "row": 4,
+      "frames": 5
+    },
+    {
+      "state": "failed",
+      "label": "失败反应",
+      "row": 5,
+      "frames": 8
+    },
+    {
+      "state": "waiting",
+      "label": "等待",
+      "row": 6,
+      "frames": 6
+    },
+    {
+      "state": "running",
+      "label": "专注工作",
+      "row": 7,
+      "frames": 6
+    },
+    {
+      "state": "review",
+      "label": "检查结果",
+      "row": 8,
+      "frames": 6
+    }
+  ],
+  "look_directions": [
+    {
+      "angle": "000",
+      "label": "抬头",
+      "row": 9,
+      "column": 0
+    },
+    {
+      "angle": "022.5",
+      "label": "右上",
+      "row": 9,
+      "column": 1
+    },
+    {
+      "angle": "045",
+      "label": "右上",
+      "row": 9,
+      "column": 2
+    },
+    {
+      "angle": "067.5",
+      "label": "右上",
+      "row": 9,
+      "column": 3
+    },
+    {
+      "angle": "090",
+      "label": "向右",
+      "row": 9,
+      "column": 4
+    },
+    {
+      "angle": "112.5",
+      "label": "右下",
+      "row": 9,
+      "column": 5
+    },
+    {
+      "angle": "135",
+      "label": "右下",
+      "row": 9,
+      "column": 6
+    },
+    {
+      "angle": "157.5",
+      "label": "右下",
+      "row": 9,
+      "column": 7
+    },
+    {
+      "angle": "180",
+      "label": "低头",
+      "row": 10,
+      "column": 0
+    },
+    {
+      "angle": "202.5",
+      "label": "左下",
+      "row": 10,
+      "column": 1
+    },
+    {
+      "angle": "225",
+      "label": "左下",
+      "row": 10,
+      "column": 2
+    },
+    {
+      "angle": "247.5",
+      "label": "左下",
+      "row": 10,
+      "column": 3
+    },
+    {
+      "angle": "270",
+      "label": "向左",
+      "row": 10,
+      "column": 4
+    },
+    {
+      "angle": "292.5",
+      "label": "左上",
+      "row": 10,
+      "column": 5
+    },
+    {
+      "angle": "315",
+      "label": "左上",
+      "row": 10,
+      "column": 6
+    },
+    {
+      "angle": "337.5",
+      "label": "左上",
+      "row": 10,
+      "column": 7
+    }
+  ],
+  "spritesheet_sha256": "9efec77e71e02d2070b8ed5844beab8e4bfc60c52f64e29a7ecd08a497a77213"
+}
